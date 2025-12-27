@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+/* ========================================
+   TAILWIND THEME
+   ======================================== */
+
+@theme {
+  /* Custom Background Color */
+  --color-rose-white: #fffbfb;
+  
+  /* Font Families */
+  --font-family-sans: 'Lato', sans-serif;
+  --font-family-serif: 'Playfair Display', serif;
+  --font-family-script: 'Great Vibes', cursive;
+}
+
+/* ========================================
+   CUSTOM UTILITY CLASSES
+   ======================================== */
+
+/* Gold gradient text */
+.gold-text {
+    background: linear-gradient(to right, #d4af37, #f3e5ab, #d4af37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Hide scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Font script utility */
+.font-script {
+    font-family: var(--font-family-script);
+}
+
+/* ========================================
+   GLOBAL STYLES
+   ======================================== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family-sans);
+    background-color: var(--color-rose-white);
+}
+
+h1, h2, h3, .font-serif {
+    font-family: var(--font-family-serif);
+}
