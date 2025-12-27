@@ -38,7 +38,6 @@ export const Navigation: React.FC = () => {
           <a href="#services" className={linkClasses}>Leistungen</a>
           <a href="#timeline" className={linkClasses}>Ablauf</a>
           <a href="#gallery" className={linkClasses}>Galerie</a>
-          <a href="#assistant" className={linkClasses}>KI-Planer</a>
           <a href="#contact" className={`px-8 py-2.5 border ${isScrolled ? 'border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white' : 'border-white text-white hover:bg-white hover:text-rose-900'} transition-all duration-500 uppercase text-[10px] tracking-widest font-bold`}>
             Anfragen
           </a>
@@ -56,7 +55,6 @@ export const Navigation: React.FC = () => {
           <a href="#services" onClick={() => setIsOpen(false)} className="text-gray-800 uppercase tracking-[0.2em] text-xs font-bold">Leistungen</a>
           <a href="#timeline" onClick={() => setIsOpen(false)} className="text-gray-800 uppercase tracking-[0.2em] text-xs font-bold">Ablauf</a>
           <a href="#gallery" onClick={() => setIsOpen(false)} className="text-gray-800 uppercase tracking-[0.2em] text-xs font-bold">Galerie</a>
-          <a href="#assistant" onClick={() => setIsOpen(false)} className="text-gray-800 uppercase tracking-[0.2em] text-xs font-bold">KI-Planer</a>
           <a href="#contact" onClick={() => setIsOpen(false)} className="px-10 py-3 bg-rose-100 text-rose-900 uppercase tracking-widest text-xs font-bold rounded-sm">Jetzt Buchen</a>
         </div>
       )}
