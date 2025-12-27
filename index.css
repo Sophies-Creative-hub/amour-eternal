@@ -4,7 +4,7 @@
    TAILWIND THEME
    ======================================== */
 
-@theme {
+:root {
   /* Custom Background Color */
   --color-rose-white: #fffbfb;
   
